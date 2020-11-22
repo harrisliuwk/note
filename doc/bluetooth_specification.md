@@ -1,0 +1,22 @@
+# bluetooth specification
+
+- [Bluetooth](https://www.bluetooth.com/)
+
+  - [Bluetooth Specification](https://www.bluetooth.com/specifications/)
+    - [Bluetooth Core Specification](https://www.bluetooth.com/specifications/bluetooth-core-specification/)
+      - [5.2](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=478726)
+    - [Traditional Profile Specifications](https://www.bluetooth.com/specifications/profiles-overview/)
+      - [Hands-Free Profile](https://www.bluetooth.org/DocMan/handlers/DownloadDoc.ashx?doc_id=489628)
+      - [Serial Port Profile](https://www.bluetooth.org/docman/handlers/DownloadDoc.ashx?doc_id=260866&vId=290097)
+      - [Advanced Audio Distribution Profile](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=457083)
+    - [Mesh Networking Specifications](https://www.bluetooth.com/specifications/mesh-specifications/)
+      - [Mesh Profile Specification 1.0.1](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=457092)
+      - [Mesh Model Specification 1.0.1](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=457091)
+      - [Mesh Device Properties 2](https://www.bluetooth.org/DocMan/handlers/DownloadDoc.ashx?doc_id=502133&vId=542991)
+  - [Archived Specifications](https://www.bluetooth.com/specifications/archived-specifications/)
+    - [5.2](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=478726)
+    - [5.1](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=457080)
+    - [5.0](https://www.bluetooth.org/docman/handlers/DownloadDoc.ashx?doc_id=421043)
+    - [4.2](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=441541)
+    - [4.1](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=282159)
+    - [4.0](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=456433)
