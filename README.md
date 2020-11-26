@@ -20,6 +20,16 @@
 
 - [MCU 的 bootloader](doc/MCU的bootloader.md)
 
+## BLE / BR-EDR
+
+- [bluetooth specification](doc/bluetooth_specification.md)
+
+- [BLE5 cc2652](doc/BLE5_cc2652.md)
+
+- [BLE5 cc2652 IDE](doc/BLE5_cc2652_IDE.md)
+
+- [BLE/BR-EDR cyw20719](doc/cyw20719.md)
+
 ## 密码学
 
 - [openssl build install](doc/openssl_build_install.md)
@@ -97,14 +107,6 @@
 - [MQTT 协议的深入理解](doc/MQTT协议的深入理解.md)
 
 - [为什么 github 在国内的速度这么慢](doc/为什么github在国内的速度这么慢.md)
-
-## BLE
-
-- [bluetooth specification](doc/bluetooth_specification.md)
-
-- [BLE5 cc2652](doc/BLE5_cc2652.md)
-
-- [BLE5 cc2652 IDE](doc/BLE5_cc2652_IDE.md)
 
 ## 效率
 
