@@ -1,4 +1,6 @@
-# 安装集成开发环境
+# development environment
+
+## 安装集成开发环境
 
 ### 安装 SDK
 
@@ -8,7 +10,7 @@
 
   - [Linux Installer for SimpleLink CC13X2 26X2 SDK 3.10.00.53](https://www.ti.com/licreg/docs/swlicexportcontrol.tsp?form_type=2&prod_no=simplelink_cc13x2_26x2_sdk_3_10_00_53.run&ref_url=http://software-dl.ti.com/simplelink/esd/simplelink_cc13x2_26x2_sdk/3.10.00.53)
 
-    ```
+    ```shell
     chmod +x simplelink_cc13x2_26x2_sdk_3_10_00_53.run
     ./simplelink_cc13x2_26x2_sdk_3_10_00_53.run
     ```
@@ -61,14 +63,14 @@
 
 - first unzip the CCS9.2.0.00013_linux-x64.tar.gz file, then execute
 
-```
+```shell
 cd CCS9.2.0.00013_linux-x64/
 ./ccs_setup_9.2.0.00013.bin
 ```
 
 - install driver and then reboot for debug avaliable
 
-```
+```shell
 cd ~/ti/ccs920/ccs/install_scripts
 sudo ./install_drivers.sh
 ```
@@ -77,7 +79,7 @@ sudo ./install_drivers.sh
 
 double click the desktop shorcut or execute this command
 
-```
+```shell
 sudo ./<install_path>/ccs920/ccs/eclipse/ccstudio
 ```
 
@@ -89,14 +91,14 @@ sudo ./<install_path>/ccs920/ccs/eclipse/ccstudio
 
 log
 
-```
+```shell
 libpython2.7.so.1.0: cannot open shared object file: No such file or directory
 There was a problem loading "/home/linux/ti/ccs920/ccs/eclipse/../ccs_base/common/bin/libMiniDump.so".
 ```
 
 solution
 
-```
+```shell
 sudo apt-get install libpython2.7
 ```
 
@@ -106,7 +108,7 @@ this error is typically generated when the include path/variable to a library is
 But in Linux environment, maybe it is a permission issue.
 The solution is
 
-```
+```shell
 cd ~/ti/ccs920/ccs/install_scripts/
 sudo ./ti_permissions_install.sh
 ```
@@ -128,10 +130,13 @@ sudo ./ti_permissions_install.sh
 ### 烧录工具
 
 - [UniFlash for most TI Microcontrollers (MCUs) and mmWave sensors](https://www.ti.com/tool/download/UNIFLASH)
+
   - [Windows Installer for UniFlash 5.2.0.2519](http://software-dl.ti.com/ccs/esd/uniflash/uniflash_sl.5.2.0.2519.exe)
   - [Linux Installer for UniFlash 5.2.0.2519](http://software-dl.ti.com/ccs/esd/uniflash/uniflash_sl.5.2.0.2519.run)
+
     - failed to locate system libraries required for UniFlash operation: libgconf-2.so.4 libusb-0.1.so.4
-    ```
+
+    ```shell
     sudo apt install libgconf2-4
     sudo apt install libusb-0.1-4
     ```
@@ -140,11 +145,11 @@ sudo ./ti_permissions_install.sh
 
 - [minicom installation](minicon使用方法.md)
 
-```
+```shell
 sudo apt install minicom
 ```
 
-# 开发相关配置问题
+## 开发相关配置问题
 
 ### 开发环境的配置
 
