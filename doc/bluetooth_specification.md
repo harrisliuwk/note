@@ -29,3 +29,17 @@
     - [4.2](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=441541)
     - [4.1](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=282159)
     - [4.0](https://www.bluetooth.org/docman/handlers/downloaddoc.ashx?doc_id=456433)
+
+## 蓝牙常用术语
+
+| 术语 |     中文含义     |             英文含义              |
+| :--: | :--------------: | :-------------------------------: |
+| HFP  |     通话功能     |        hands-free profile         |
+| PBAP |    电话本协议    |        phone book profile         |
+| ANCS | 苹果消息通知协议 | apple notification center service |
+| AMS  |  苹果多媒体协议  |        apple media service        |
+
+## ANCS
+
+- [The Apple Notification Center Service](https://developer.apple.com/library/archive/documentation/CoreBluetooth/Reference/AppleNotificationCenterServiceSpecification/Specification/Specification.html)
+- [ANCS 详解](https://www.jianshu.com/p/2ddf76ab85b0)
