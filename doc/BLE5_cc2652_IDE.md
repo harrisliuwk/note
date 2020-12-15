@@ -1,6 +1,6 @@
 # TI BLE5 development environment
 
-## 安装集成开发环境
+## Windows 环境软件安装
 
 ### 安装 SDK
 
@@ -67,9 +67,23 @@
   - clean project
   - rebuild all
 
-### Linux 环境软件安装
+### XDCtools 的安装
 
-#### Linux CCS installation
+安装 SDK 和 CCS 时会默认安装 XDCtool，不同的 SDK 及 CCS 安装的 XDCtool 版本如下
+
+|       SDK/CCS       |     xdctool version      |
+| :-----------------: | :----------------------: |
+|   SDK 3.10.00.53    | xdctools_3_51_02_21_core |
+|   SDK 3.20.00.68    | xdctools_3_51_03_28_core |
+|   SDK 3.30.00.03    | xdctools_3_60_00_24_core |
+|   SDK 3.40.00.02    | xdctools_3_60_02_34_core |
+| CCS IDE 9.2.0.00013 | xdctools_3_60_01_27_core |
+
+启动 CCS 后，会提示安装 xdctools，然后安装即可
+
+## Linux 环境软件安装
+
+### Linux CCS installation
 
 - first unzip the CCS9.2.0.00013_linux-x64.tar.gz file, then execute
 
@@ -123,7 +137,7 @@ cd ~/ti/ccs920/ccs/install_scripts/
 sudo ./ti_permissions_install.sh
 ```
 
-#### 安装烧录工具 UniFlash
+### 安装烧录工具 UniFlash
 
 - [UniFlash for most TI Microcontrollers (MCUs) and mmWave sensors](https://www.ti.com/tool/download/UNIFLASH)
 
@@ -137,27 +151,13 @@ sudo ./ti_permissions_install.sh
     sudo apt install libusb-0.1-4
     ```
 
-#### 安装 uart trace 串口调试工具
+### 安装 uart trace 串口调试工具
 
 - [minicom installation](minicon使用方法.md)
 
 ```shell
 sudo apt install minicom
 ```
-
-### XDCtools 的安装
-
-安装 SDK 和 CCS 时会默认安装 XDCtool，不同的 SDK 及 CCS 安装的 XDCtool 版本如下
-
-|       SDK/CCS       |     xdctool version      |
-| :-----------------: | :----------------------: |
-|   SDK 3.10.00.53    | xdctools_3_51_02_21_core |
-|   SDK 3.20.00.68    | xdctools_3_51_03_28_core |
-|   SDK 3.30.00.03    | xdctools_3_60_00_24_core |
-|   SDK 3.40.00.02    | xdctools_3_60_02_34_core |
-| CCS IDE 9.2.0.00013 | xdctools_3_60_01_27_core |
-
-启动 CCS 后，会提示安装 xdctools，然后安装即可
 
 ## 开发相关配置问题及测试
 
