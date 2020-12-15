@@ -49,7 +49,7 @@
 
 ### 安装 CCS
 
-- [ccs studio](http://www.ti.com/tool/download/CCSTUDIO)
+- [CCS Studio](http://www.ti.com/tool/download/CCSTUDIO)
 
   - [Windows single file installer for CCS IDE 9.2.0.00013](http://software-dl.ti.com/ccs/esd/CCSv9/CCS_9_2_0/exports/CCS9.2.0.00013_win64.zip)
 
