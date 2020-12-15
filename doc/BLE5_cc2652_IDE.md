@@ -1,4 +1,4 @@
-# development environment
+# TI BLE5 development environment
 
 ## 安装集成开发环境
 
@@ -27,6 +27,10 @@
 
   - [Linux Installer for SimpleLink CC13X2 26X2 SDK 3.40.00.02](https://www.ti.com/licreg/docs/swlicexportcontrol.tsp?form_type=2&prod_no=simplelink_cc13x2_26x2_sdk_3_40_00_02.run&ref_url=http://software-dl.ti.com/simplelink/esd/simplelink_cc13x2_26x2_sdk/3.40.00.02)
 
+  - [Windows Installer for Simplelink CC13X2 26X2 SDK 4.30.00.54](https://www.ti.com/licreg/docs/swlicexportcontrol.tsp?form_type=2&prod_no=simplelink_cc13x2_26x2_sdk_4_30_00_54.exe&ref_url=http://software-dl.ti.com/simplelink/esd/simplelink_cc13x2_26x2_sdk/4.30.00.54)
+
+  - [Linux Installer for SimpleLink CC13X2 26X2 SDK 4.30.00.54](https://www.ti.com/licreg/docs/swlicexportcontrol.tsp?form_type=2&prod_no=simplelink_cc13x2_26x2_sdk_4_30_00_54.run&ref_url=http://software-dl.ti.com/simplelink/esd/simplelink_cc13x2_26x2_sdk/4.30.00.54)
+
 ### 安装 IAR
 
 - [EWARM-CD-8323-20228](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
@@ -45,11 +49,15 @@
 
 ### 安装 CCS
 
-- [ccs_setup_9.2.0.00013](http://www.ti.com/tool/download/CCSTUDIO)
+- [ccs studio](http://www.ti.com/tool/download/CCSTUDIO)
 
   - [Windows single file installer for CCS IDE 9.2.0.00013](http://software-dl.ti.com/ccs/esd/CCSv9/CCS_9_2_0/exports/CCS9.2.0.00013_win64.zip)
 
   - [Linux single file installer for CCS IDE 9.2.0.00013](http://software-dl.ti.com/ccs/esd/CCSv9/CCS_9_2_0/exports/CCS9.2.0.00013_linux-x64.tar.gz)
+
+  - [Windows single file installer for CCS IDE 10.1.1.00004](https://software-dl.ti.com/ccs/esd/CCSv10/CCS_10_1_1/exports/CCS10.1.1.00004_win64.zip)
+
+  - [Linux single file installer for CCS IDE 10.1.1.00004](https://software-dl.ti.com/ccs/esd/CCSv10/CCS_10_1_1/exports/CCS10.1.1.00004_linux-x64.tar.gz)
 
 - import project
   - file -> import -> C/C++ -> CSS Projects -> Next -> Browse
@@ -59,7 +67,7 @@
   - clean project
   - rebuild all
 
-### Linux CCS installation
+#### Linux CCS installation
 
 - first unzip the CCS9.2.0.00013_linux-x64.tar.gz file, then execute
 
@@ -127,7 +135,7 @@ sudo ./ti_permissions_install.sh
 
 启动 CCS 后，会提示安装 xdctools，然后安装即可
 
-### 烧录工具
+### 安装烧录工具 UniFlash
 
 - [UniFlash for most TI Microcontrollers (MCUs) and mmWave sensors](https://www.ti.com/tool/download/UNIFLASH)
 
@@ -149,7 +157,7 @@ sudo ./ti_permissions_install.sh
 sudo apt install minicom
 ```
 
-## 开发相关配置问题
+## 开发相关配置问题及测试
 
 ### 开发环境的配置
 
@@ -186,6 +194,7 @@ XDC 版本
 - 出现编译异常时，优先导入 SDK 的示例工程编译测试
 - IAR & CCS 同时开发时，本地最好分别使用代码库
 - Linux CCS 在 debug 时不能烧录代码，需要安装 driver 解决
+- UniFlash 找不到开发板？
 - Ubuntu CCS 编译以前没有问题，现在突然经常特别卡
   - 重装 CCS
   - 重新建 workspace
