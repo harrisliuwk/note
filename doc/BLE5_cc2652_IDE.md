@@ -123,7 +123,7 @@ cd ~/ti/ccs920/ccs/install_scripts/
 sudo ./ti_permissions_install.sh
 ```
 
-### 安装烧录工具 UniFlash
+#### 安装烧录工具 UniFlash
 
 - [UniFlash for most TI Microcontrollers (MCUs) and mmWave sensors](https://www.ti.com/tool/download/UNIFLASH)
 
@@ -137,7 +137,7 @@ sudo ./ti_permissions_install.sh
     sudo apt install libusb-0.1-4
     ```
 
-### 安装 uart trace 串口调试工具
+#### 安装 uart trace 串口调试工具
 
 - [minicom installation](minicon使用方法.md)
 
